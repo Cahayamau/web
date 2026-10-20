@@ -1,0 +1,64 @@
+/* 2. CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: #EEAECA
+}
+
+/* 3. LAYOUT CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* 4. HEADER & NAVIGASI */
+header {
+    background-color: rgb(189, 110, 241);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 0.95rem;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+
+nav {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 14px;
+    margin: 0 2px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    font-weight: bold;
+}

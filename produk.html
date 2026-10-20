@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalog Produk & Portofolio - Poliban DigiCraft Studio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--Bagian Kepala Halaman (Header & Navigasi)-->
     <header>
-        <h1>Poliban DigiCraft Studio</h1>
-        <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
-        <hr>
+        <div class="container">
+            <h1>Poliban DigiCraft Studio</h1>
+            <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
+            <hr>
+            <nav>
+                <a href="index.html">Beranda</a> |
+                <a href="tentang.html">Tentang Founder</a> |
+                <a href="produk.html" class="active"><b>Katalog Jasa & Paket Harga</b></a> |
+                <a href="kontak.html">Kontak & Pemesanan</a>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="index.html">Beranda</a> |
-        <a href="tentang.html">Tentang Founder</a> |
-        <a href="produk.html"><b>Katalog Jasa & Paket Harga</b></a> |
-        <a href="kontak.html">Kontak & Pemesanan</a>
-    </nav>
     <hr>
     <section>
         <h2>Portofolio & Karya Unggulan Kami</h2>
 
         <!-- Menampilkan Gambar Mockup (Gunakan gambar yang ada di folder komputer Anda) -->
-         <p>
-            <img src="gambar/images.jpg" alt="Mockup Desain Landing Page Agensi" width="450">
+        <p>
+            <img src="gambar/eskrim.jpg" alt="Mockup Desain Landing Page Agensi" width="350">
             <br>
             <em>Gambar 1: Desain Landing Page Responsif untuk UMKM Lokal</em>
-         </p>
+        </p>
 
-         <!-- Menyematkan Video Youtube Profil Agensi -->
-          <p>
-            <h3>Video Profil Bisnis Kami:</h3>
-            <iframe width="560" height="315"
-                src="<iframe width="560" height="315" src="https://www.youtube.com/embed/jV1i_sVnP4o?si=RHgc-vUJFFQnCGKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </iframe>
+        <!-- Menyematkan Video Youtube Profil Agensi -->
+        <p>
+        <h3>Video Profil Bisnis Kami:</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3-DZNL9TNfc?si=VmYYWakv_bYtQ04w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </p>
     </section>
     <hr>
@@ -46,7 +49,9 @@
             <thead>
                 <tr bgcolor="#008080">
                     <!-- Judul Tabel Menggunakan Colspan agar memanjang di 4 kolom-->
-                     <th colspan="4"><font color="white">DAFTAR HARGA JASA AGENSIDIGITAL</font></th>
+                    <th colspan="4">
+                        <font color="white">DAFTAR HARGA JASA AGENSIDIGITAL</font>
+                    </th>
                 </tr>
                 <tr bgcolor="#F4F7F6">
                     <th>Kategori Layanan</th>
@@ -84,8 +89,9 @@
         </table>
     </section>
     <footer>
-    <hr>
-    <p align="center">&copy; 2024 Poliban DigiCraft Studio - Hak Cipta Dilindungi Undang-undang.</p>
+        <hr>
+        <p align="center">&copy; 2024 Poliban DigiCraft Studio - Hak Cipta Dilindungi Undang-undang.</p>
     </footer>
 </body>
+
 </html>
